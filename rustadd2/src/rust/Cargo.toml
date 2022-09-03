@@ -1,0 +1,11 @@
+[package]
+name = 'rustadd2'
+version = '0.1.0'
+edition = '2021'
+
+[lib]
+crate-type = [ 'staticlib' ]
+name = 'rustadd2'
+
+[dependencies]
+extendr-api = '*'
